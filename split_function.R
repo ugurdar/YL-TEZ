@@ -1,5 +1,5 @@
 split_data_simple <- function(data, n) {
-  # Çalışmada 1.5, 2, 3, 4, 5, 6, 7 olarak seçilmiştir
+  # Çalışmada  n = 1.5, 2, 3, 4, 5, 6, 7 olarak seçilmiştir
   # sırasıyla, 3, 5, 10, 15, 20, 25, 30 batch sayısı elde edilir.
   subset_size <- floor(nrow(data) / n)
   
